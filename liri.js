@@ -61,8 +61,8 @@ switch (command) {
             console.log('statusCode:', response && response.statusCode)
         }
         var body = JSON.parse(body)
-        var movieTitle = body.movieTitle
-        var movieYear = body.movieYear
+        var movieTitle = body.Title
+        var movieYear = body.Year
         var movieRating = body.imdbRating
         var movieRotten = body.Ratings[1].Value
         var movieCountry = body.Country
